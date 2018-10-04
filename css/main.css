@@ -1,2 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
 body {
-  background-color: blue; }
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "K2D", sans-serif;
+  height: 100%;
+  width: 100%; }
+
+.head-wrap {
+  background-color: #020202;
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .head-wrap img {
+    width: 30vw;
+    height: 15vw; }
+
+.nav {
+  background-color: #020202;
+  display: flex;
+  justify-content: space-around; }
+  .nav-item {
+    padding: 1em; }
+    .nav-item a {
+      color: #fff;
+      text-decoration: none; }
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%; }
+
+.main-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2em; }
+  .main-content .right {
+    padding-left: 2em; }
+
+.sidebar {
+  width: 15%;
+  background-color: #363130;
+  height: 110%;
+  color: #fff; }
+  .sidebar__title {
+    padding: 1em;
+    text-align: center; }
+  .sidebar__item {
+    padding: 1em; }
+    .sidebar__item a {
+      text-decoration: none;
+      color: #fff; }
